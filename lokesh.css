@@ -1,0 +1,799 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.top h1 {
+    font-size: 32px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    /* position: fixed; */
+}
+header .leftone img {
+    padding: 50px;
+    width: 200px;
+}
+header .center ul {
+    display: flex;
+    margin-top: 30px;
+    list-style: none;
+}
+header .center ul li a {
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 42px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+header .center ul li a :hover{
+    background-color: black;
+}
+.heading {
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0px;
+}
+.heading h1 {
+    font-size: 32px;
+    margin: 18px;
+}
+.heading a {
+    margin: 20px;
+}
+.rightone {
+    display: flex;
+    border-left: 1px solid black;
+    padding: 10px;
+}
+.rightone .icon {
+    padding: 5px;
+    font-size: 50px;
+}
+.rightone h5 {
+    color: green;
+    font-size: 20px;
+}
+.rightone .contain {
+    padding: 10px;
+}
+.rightone p {
+    font-size: 20px;
+}
+.rightone ul li {
+    font-size: 30px;
+}
+.heading ul {
+    display: flex;
+    justify-content: space-around;
+}
+.heading ul li {
+    list-style: none;
+    margin: 5px;
+}
+.heading ul li a {
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+}
+.background {
+    background-image: url("lokesh\(9\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+}
+.mainwork {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainwork .left p {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.left h1 {
+    font-size: 60px;
+    color: white;
+}
+.mainwork .left {
+    padding: 20px;
+    padding-left: 30px;
+}
+.left ul li {
+    color: white;
+    font-size: 24px;
+    padding-right: 5px;
+}
+.left ul {
+    padding: 10px;
+    margin: 24px;
+}
+.left a {
+    padding: 8px 30px;
+    border: 1px solid #00af07;
+    margin: 20px;
+    text-decoration: none;
+    background-color: #00af07;
+    color: #fff;
+    border-right: 1px solid #00af07;
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.left a:hover{
+    background-color: #000;
+    border: 1px solid white;
+}
+.table {
+    background-color: white;
+    border: 1px solid black;
+    height: 460px;
+    width: 385px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.arrows {
+    text-align: center;
+    padding: -40px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.table .enquiry h2 {
+    font-size: 32px;
+    padding: 16px;
+}
+.table .enquiry p {
+    color: grey;
+    font-size: 18px;
+}
+.enquiry form input {
+    width: 80%;
+    margin: 5px;
+    height: 50%;
+    padding: 10px;
+    font-size: 14px;
+}
+/* .enquiry form a:hover{
+    background-color: rgba(0, 128, 0, 0.336);
+} */
+.table .enquiry textarea {
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+}
+.arrows a {
+    padding: 15px;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 70%;
+    color: #000;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.forms input {
+    background-color: #00af07;
+    border: none;
+    width: 80%;
+    color: white;
+    padding: 20px;
+}
+
+.center h1 {
+    font-size: 18px;
+    border-bottom: 2px solid #ededed;
+    width: 150px;
+    color: grey;
+    margin: 32px;
+}
+.center h2 {
+    font-size: 32px;
+    font-weight: 700px;
+    margin-top: -18px;
+    margin: 18px;
+}
+.center p {
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 24px;
+    margin-right: 30px;
+}
+.down {
+    display: flex;
+}
+.box {
+    border: 2px solid white;
+    width: 30%;
+    margin: 20px;
+    height: 400px;
+}
+.box .img {
+    height: 200px;
+}
+.box .img img {
+    height: 100%;
+    width: 100%;
+}
+.down .box .matter {
+    padding: 10px 20px;
+    background-color: aliceblue;
+}
+.down .box .matter h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.down .box .matter p {
+    padding: 10px 0;
+    font-size: 19px;
+    font-weight: 500;
+}
+.down .box :hover {
+    background-color: #00af07;
+}
+.box .matter a {
+    text-decoration: none;
+    color: #000;
+    padding-right: 10px;
+}
+.bottoms a {
+    text-align: center;
+    color: #fff;
+    background-color: #00af07;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.bottoms a:hover{
+    background-color: black ;
+}
+.bottoms {
+    margin: 2px 0;
+    text-align: center;
+    padding: 70px;
+}
+.thirdrow {
+    background-image: url("image\ \(6\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 81vh;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+}
+.thirdrow .c img {
+    width: 500px;
+}
+.thirdrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+.thirdrow .scholarship h2 {
+    font-size: 32px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.thirdrow .scholarship p {
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.thirdrow .world img {
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.thirdrow .scholarship h5 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 400;
+}
+.thirdrow .scholarship a {
+    font-size: 17px;
+    color: white;
+    height: 52px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background: #00af07;
+    margin-top: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.thirdrow .scholarship a:hover{
+    background-color: rgba(128, 128, 128, 0.089);
+}
+.fourbox {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.four {
+    padding: 30px 0px;
+    border: 1px solid #E7EAEF;
+    margin: 20px;
+    background-color: white;
+    text-align: center;
+    width: 220px;
+    height: 130px;
+}
+.four h1 {
+    font-size: 50px;
+    color: #00af07;
+}
+.fifthrow {
+    background-image: url("image\ \(10\)..png");
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.fiveleft {
+    padding: 50px;
+}
+.fiveleft h1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #6f6f6f;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.fiveleft h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.fiveleft p {
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: px;
+    color: #000;
+}
+.fiveright {
+    padding: 30px;
+}
+.topone {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.topone a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6f6f6f;
+}
+.topone h1 {
+    margin: 15px;
+}
+#wapper {
+    display: flex;
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+.threebox {
+    border: 1px solid #E7EAEF;
+    width: 350px;
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+    height: 350px;
+    padding: 18px;
+}
+#wapper .threebox .image {
+    width: 5px;
+}
+#wapper .threebox .icon {
+    font-size: 40px;
+    color: green;
+}
+.threebox.type h3 {
+    font-size: 12px;
+    font-weight: 200;
+}
+.threebox .star i {
+    color: #00af07;
+}
+.threebox .star {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.threebox .star p{
+    margin: 5px;
+    margin-top: -3px;
+}
+.last .headingone h1 {
+    margin: 20px;
+}
+.last .headingone {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 30px;
+}
+.last .headingone h3 a {
+    color: gray;
+    font-size: 24px;
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.last .headingone h3 {
+    margin: 20px;
+}
+.change {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.change a :first-child {
+    color: #00af07;
+}
+.sixrow {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+.sixleft {
+    width: 500px;
+}
+.sixleft h1 {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #6f6f6f;
+    margin-bottom: 10px;
+}
+.sixleft h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.sixleft p {
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.sixleft a {
+    text-decoration: none;
+    border: 2px solid #00af07;
+    padding: 10px;
+    color: #00af07;
+}
+.sixleft a:hover{
+    background-color: #00af07;
+    color: white;
+}
+.sixright h2 {
+    text-align: center;
+    margin: 10px;
+}
+.sixright p {
+    text-align: center;
+    margin: 10px;
+    font-size: 12px;
+}
+.sixright {
+    border: 2px solid #00af07;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+}
+.sixright form input {
+    width: 90%;
+    margin: 5px;
+    height: 50%;
+    padding: 10px;
+    margin-left: 18px;
+    font-size: 14px;
+    margin-top: 10px;
+    background-color: #ededed;
+}
+.sixright textarea {
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    background-color: #ededed;
+    margin-left: 18px;
+}
+.form.forms input {
+    background-color: #00af07;
+}
+.sevenleft {
+    padding: 25px;
+    width: 50%;
+    margin-left: 1rem;
+}
+.sevenleft h1 {
+    font-size: 16px;
+    color: #00af07;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sevenleft h2 {
+    font-size: 16px;
+    background-color: #ededed;
+    border-left: 3px solid #00af07;
+    padding: 5px;
+    margin-right: -27px;
+}
+.sevenleft h4 {
+    margin: 13px;
+    margin-left: -2px;
+}
+.sevenleft a {
+    text-align: right;
+    background: #05585e;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 440px;
+}
+.sevenleft img {
+    width: 600px;
+}
+.sevenrow {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+.sevenrow .sevenright .sevenone {
+    margin: 26px;
+    margin-right: 60px;
+}
+.sevenright .one img {
+    width: 70%;
+}
+.sevenone .two h6 {
+    color: #00af07;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -5px;
+}
+.sevenone .two p {
+    font-size: 15px;
+    width: 340px;
+    margin-bottom: 8px;
+}
+.sevenone .two a {
+    text-align: right;
+    background: #05585e;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 250px;
+}
+.sevenright {
+    width: 47%;
+    margin: 5px;
+}
+.sevenone {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 80px;
+}
+.sevenone .one img {
+    width: 152px;
+    height: 109%;
+    margin-right: 2rem;
+    margin-left: -46pxpx;
+}
+.endlast {
+    margin-top: 10%;
+    background-color: rgb(33, 32, 32);
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.end .endone img {
+    padding: 10px;
+    width: 172px;
+    margin: 32px;
+    padding-left: 1px;
+    padding-right: 10px;
+}
+.end .endone h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin: 25px;
+    margin-top: 12%;
+    margin-left: 12px;
+}
+.end .endone a {
+    font-size: 28px;
+    margin: 5px;
+    padding: 2px;
+}
+.endone {
+    position: absolute;
+    background-color: orange;
+    height: 497px;
+    margin-top: -10%;
+    width: 30%;
+    margin-left: 5%;
+    padding: 40px;
+}
+.endone p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+.end {
+    height: 400px;
+    width: 100%px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.end .endtwo {
+    padding-left: 30rem
+}
+.end .endtwo h3 {
+    font-size: 28px;
+    margin: 5px;
+}
+.end .endtwo ul {
+    font-size: 16px;
+    margin: 10px;
+    list-style: none;
+}
+.end .endtwo ul li {
+    padding: 5px;
+}
+.end .endthree {
+    padding: 50px;
+    margin: -46px;
+}
+.end .endthree h3 {
+    font-size: 28px;
+}
+.end .endthree ul {
+    list-style: none;
+    font-size: 16px;
+    padding: -10px;
+}
+.end .endthree ul li {
+    padding: 5px;
+}
+.endtwo {
+    color: white;
+}
+.endthree {
+    color: white;
+}
+.endfour {
+    color: white;
+    padding: 41px;
+    margin: -19px;
+    margin-top: -28px;
+}
+.endfour ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+.endfour h3 {
+    font-size: 28px;
+    margin-top: -10px;
+}
+.endfour ul li {
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.endfour ul li a {
+    margin-right: 10px;
+}
+.handset {
+    font-size: 60px;
+    margin-left: -60px;
+    padding: 18px;
+}
+.green .number {
+    margin-left: 38px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+.green i {
+    font-size: 71px;
+    padding: 9px;
+    color: white;
+    margin-left: -16px;
+    margin-top: 10px;
+}
+.green {
+    display: flex;
+    background-color: #00af07;
+    margin-left: 63px;
+    width: 380px;
+    height: 150px;
+    border: 3px solid #00af07;
+}
+.green .number h6 {
+    font-size: 27px;
+    margin-left: -25px;
+}
+.earth {
+    display: flex;
+    justify-content: space-between;
+}
+.boxright {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid black;
+    height: 90px;
+    margin-right: 64px;
+    background-color: black;
+}
+.boxright .headleft h1 {
+    font-size: 22px;
+    padding: 24px;
+    color: white;
+}
+.boxleft form {
+    border: 2px solid black;
+    padding: 12px;
+    margin: 5px;
+    color: white;
+    margin-right: 12px;
+}
+.boxleft form input {
+    padding: 8px;
+}
+.boxleft form i {
+    background-color: #00af07;
+    background-color: green;
+    margin: -4px;
+    padding: 12px;
+    margin-top: 4px;
+    padding-top: 8px;
+    padding-bottom: 11px;
+}
+.copyright {
+    display: flex;
+    justify-content: right;
+    margin: 2px;
+}
+.copyright p {
+    margin-top: -40px;
+    margin-right: 482px;
+}
+.copyright h6 {
+    margin: -15px;
+    margin-right: 64px;
+    font-size: 12px;
+}
